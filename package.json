@@ -4,12 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node_modules/.bin/tsc",
+    "serve": "node dist/server.js",
+    "watch:ts": "tsc -w",
+    "watch:node": "nodemon dist/server.js"
   },
   "keywords": [],
   "author": "ChrisSensebe",
   "license": "ISC",
   "devDependencies": {
+    "nodemon": "^1.14.11",
     "typescript": "2.6.2"
   }
 }
