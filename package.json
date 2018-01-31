@@ -8,7 +8,9 @@
     "build": "node_modules/.bin/tsc",
     "serve": "node dist/server.js",
     "watch:ts": "tsc -w",
-    "watch:node": "nodemon dist/server.js"
+    "watch:node": "nodemon dist/server.js",
+    "warch:test": "node_modules/.bin/jest --forceExit --coverage --verbose --watch",
+    "warch:testAll": "node_modules/.bin/jest --forceExit --coverage --verbose --watchAll"
   },
   "keywords": [],
   "author": "ChrisSensebe",
