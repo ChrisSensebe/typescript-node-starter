@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/jest --forceExit --coverage --verbose",
+    "test": "node_modules/.bin/jest --forceExit --coverage --verbose --passWithNoTests",
     "build": "node_modules/.bin/tsc",
     "serve": "node dist/server.js",
     "watch:build": "tsc -w",
