@@ -16,14 +16,14 @@
   "author": "ChrisSensebe",
   "license": "ISC",
   "dependencies": {
-    "typescript": "^2.6.2",
-    "@types/node": "^9.4.0"
+    "@types/node": "^10.5.1",
+    "typescript": "^2.9.2"
   },
   "devDependencies": {
-    "jest": "^22.1.4",
-    "@types/jest": "^22.1.1",
-    "nodemon": "^1.14.11",
-    "ts-jest": "^22.0.2",
-    "tslint": "^5.9.1"
+    "@types/jest": "^23.1.4",
+    "jest": "^23.3.0",
+    "nodemon": "^1.17.5",
+    "ts-jest": "^23.0.0",
+    "tslint": "^5.10.0"
   }
 }
