@@ -1,9 +1,7 @@
-FROM node:9
-RUN npm i -g typescript
+FROM node:10-alpine
 WORKDIR /app
+EXPOSE 3000 9229
 COPY package*.json ./
-Run npm i --only=production
-ADD . /app
-RUN npm run build
-EXPOSE 8080
+RUN npm i
+COPY . /app
 CMD ["npm", "start"]
